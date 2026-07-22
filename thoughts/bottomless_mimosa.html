@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>On Bottomless Mimosas</title>
+
+    <!-- Your main website stylesheet -->
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- MathJax configuration -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                tags: 'ams'
+            }
+        };
+    </script>
+
+    <!-- MathJax -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+        async>
+    </script>
+
+    <!-- Styles used specifically on this article page -->
+    <style>
+        .article-page {
+            max-width: 900px;
+            min-height: 100vh;
+            margin: 0 auto;
+            padding: 50px;
+            background: white;
+            box-sizing: border-box;
+        }
+
+        .article-page h1 {
+            margin-top: 0;
+        }
+
+        .article-page h2 {
+            margin-top: 45px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #dddddd;
+        }
+
+        .article-page h3 {
+            margin-top: 35px;
+        }
+
+        .article-page p {
+            line-height: 1.7;
+        }
+
+        .article-page img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 25px auto;
+        }
+
+        .definition,
+        .claim,
+        .lemma {
+            margin: 25px 0;
+            padding: 18px 22px;
+            background: #f5f5f5;
+            border-left: 5px solid steelblue;
+        }
+
+        .proof {
+            margin: 25px 0;
+            padding: 18px 22px;
+            border: 1px solid #cccccc;
+        }
+
+        .proof-title {
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .proof-ending {
+            float: right;
+        }
+
+        .note {
+            padding: 15px 20px;
+            background: #fff8d8;
+            border-left: 5px solid #d4ad24;
+        }
+
+        figure {
+            margin: 30px 0;
+        }
+
+        figcaption {
+            text-align: center;
+            font-style: italic;
+            margin-top: 10px;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 50px;
+            font-weight: bold;
+        }
+
+        @media (max-width: 700px) {
+            .article-page {
+                width: 100%;
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<main class="article-page">
+
+    <h1>On Bottomless Mimosas</h1>
+
+    <h2>Introduction</h2>
+
+    <p>
+        Picture yourself attending a pleasantly cosmopolitan brunch with
+        your colleagues. At the center of the sophisticated gathering sits
+        the beloved mimosa, a beautifully simple construction consisting of
+        orange juice and champagne.<sup><a href="#footnote-1">1</a></sup>
+        You are caressed by the soft summer breeze, and the midday sun bestows
+        the cool, inviting beverages with a resplendent shine. This occasion
+        appears perfectly civilized until the server announces that the
+        mimosas are <em>bottomless</em>.
+    </p>
+
+    <p>
+        With the introduction of this single word, the tranquility of the
+        brunch is immediately ruined. No longer may we delight in the
+        delicious and simple construction of the mimosa. We must now confront
+        serious questions concerning the meaning of the bottomless mimosa.
+
+        Establish a rigorous framework for understanding the bottomless
+        mimosa.
+    </p>
+
+
+    <img
+        src="/Users/klaramatuszewska/Desktop/pooks/images/images.jpeg"
+        alt="Illustration related to the bottomless mimosa discussion"
+    >
+
+    <img
+        src="/Users/klaramatuszewska/Desktop/pooks/images/gabriel-horn.gif"
+        alt="Possible container?"
+    >
+
+
+    <h2>On the Infinite Mimosa Fluid Assumption</h2>
+
+    <p>
+        An important question is whether our definition of a bottomless
+        mimosa <em>requires</em> an infinite amount of mimosa
+        <em>liquid</em>. Is it possible for a reasonable container to hold an
+        infinite amount of liquid?
+    </p>
+
+    <div class="definition">
+        <strong>Definition.</strong>
+
+        <p>
+            A container is <em>reasonable</em> if it satisfies the following
+            three properties:
+        </p>
+
+        <ol>
+            <li>
+                It can be served to guests by a server of finite strength
+                without forcing the server to sacrifice their stylish and
+                composed demeanor.
+            </li>
+
+            <li>
+                It is composed of a finite amount of material, such as glass.
+            </li>
+
+            <li>
+                It can be displayed inside a glass cabinet.
+            </li>
+        </ol>
+    </div>
+
+    <p>
+        Relatively tame assumptions about our capabilities—such as having no
+        access to spacetime-bending wormholes, portals, or similar
+        technologies—reveal that a glass containing an infinite amount of
+        mimosa fluid, no matter how clever its geometrical design, would not
+        fit inside any room,<sup><a href="#footnote-2">2</a></sup> the
+        observable universe, or whatever brunch venue one chooses.
+    </p>
+
+    <div class="claim">
+        <strong>Claim 1.</strong>
+
+        <p>
+            Let $\mathfrak{F}\subset\mathbb{R}^3$ indicate the mimosa fluid
+            belonging to a filled container, and let
+            $\operatorname{Vol}(\mathfrak{F})$ refer to its volume in liters.
+            If
+        </p>
+
+        $$
+        \operatorname{Vol}(\mathfrak{F})=\infty,
+        $$
+
+        <p>
+            then there exists no bounding ball $B_R$ of finite radius $R$
+            containing $\mathfrak{F}$.
+        </p>
+    </div>
+
+    <p>
+        A little explanation is in order. The picture we have in mind is that
+        $\mathfrak{F}$ is the contiguous region of space corresponding to the
+        liquid in our container. In the case of a Collins glass,
+        $\mathfrak{F}$ would be a tall, tapered cylinder. For a
+        BuzzBallz-style container, $\mathfrak{F}$ would be approximately a
+        small solid sphere.
+    </p>
+
+    <p>
+        Note that the preceding claim is agnostic regarding the particular
+        geometry of the drinking glass. If our definition of a bottomless
+        mimosa stipulates an infinite amount of liquid, then the mimosa glass
+        cannot be <em>reasonable</em>.
+    </p>
+
+
+    <h2>Alternative Approaches to the Bottomless Ideal</h2>
+
+    <p>
+        Given the infeasibility of an infinite quantity of mimosa fluid, we
+        now describe alternative constructions that approach the
+        “bottomless” ideal.
+    </p>
+
+    <figure>
+        <img
+            src="image.png"
+            alt="Illustration of a proposed bottomless mimosa construction"
+        >
+
+        <figcaption>
+            Figure 1: Proposed bottomless mimosa construction.
+        </figcaption>
+    </figure>
+
+
+    <h2>The Half-Volume Dispensing Construction</h2>
+
+    <p>
+        Let us now concern ourselves with the colloquial, common-sense
+        definition of a bottomless mimosa: a mimosa that one can continue
+        drinking without ever running out.
+    </p>
+
+    <p>
+        Although we have shown that it is impossible to hold an infinite
+        volume of mimosa in a finite container, we will now show how any local
+        brunch establishment can provide its clientele with a never-ending
+        mimosa-drinking experience.
+    </p>
+
+    <p>
+        Let us begin with a finite amount of glass from which to produce our
+        drinking vessel. For simplicity, we idealize the mimosa glass as a
+        hollow cube with finite internal volume.
+    </p>
+
+    <p>
+        The cube is filled with an initial volume $V_0$ of mimosa and equipped
+        with a dispensing mechanism. Each time the drinker requests a serving,
+        the mechanism dispenses exactly one half of the mimosa currently
+        remaining in the glass.
+    </p>
+
+    <p>
+        This mechanism saves us from the need to model the volume of the
+        drinker’s mouth, the duration of each sip, or any complicated fluid
+        dynamics introduced by ordinary human drinking.
+    </p>
+
+    <p>
+        Before proving that this construction provides indefinitely many
+        servings, we establish the following elementary result.
+    </p>
+
+    <div class="lemma" id="lemma-2n">
+        <strong>Lemma 1.</strong>
+
+        <p>
+            For every finite natural number $n\in\mathbb{N}$, the quantity
+            $2^n$ is finite.
+        </p>
+    </div>
+
+    <div class="proof">
+        <span class="proof-title">Proof.</span>
+
+        <p>
+            We proceed by mathematical induction.
+        </p>
+
+        <p>
+            For the base case, let $n=0$. Then
+        </p>
+
+        $$
+        2^0=1,
+        $$
+
+        <p>
+            which is finite.
+        </p>
+
+        <p>
+            Now assume that $2^k$ is finite for some finite natural number
+            $k\in\mathbb{N}$. Then
+        </p>
+
+        $$
+        2^{k+1}=2\cdot 2^k.
+        $$
+
+        <p>
+            The product of two finite real numbers is finite. Since $2$ is
+            finite and $2^k$ is finite by the induction hypothesis, it follows
+            that $2^{k+1}$ is also finite.
+        </p>
+
+        <span class="proof-ending">□</span>
+        <br>
+    </div>
+
+    <div class="claim">
+        <strong>Claim 2.</strong>
+
+        <p>
+            A finite glass equipped with the half-volume dispensing mechanism
+            can provide infinitely many nonzero servings of mimosa without
+            becoming empty after any finite number of servings.
+        </p>
+    </div>
+
+    <div class="proof">
+        <span class="proof-title">Proof.</span>
+
+        <p>
+            Let $V_0>0$ denote the initial volume of mimosa in the glass.
+            After the first serving, one half of the original volume is
+            dispensed, leaving
+        </p>
+
+        $$
+        \frac{V_0}{2}.
+        $$
+
+        <p>
+            After the second serving, one half of the remaining volume is
+            dispensed, leaving
+        </p>
+
+        $$
+        \frac{V_0}{4}.
+        $$
+
+        <p>
+            Continuing in this manner, after $n$ servings the volume remaining
+            in the glass is
+        </p>
+
+        $$
+        V_n=\frac{V_0}{2^n}.
+        $$
+
+        <p>
+            Since $V_0$ is positive and $2^n$ is finite and positive for every
+            finite integer $n$ by Lemma 1, it follows that
+        </p>
+
+        $$
+        V_n>0
+        $$
+
+        <p>
+            for every finite number of servings. Thus, no matter how many
+            servings have already been dispensed, some nonzero quantity of
+            mimosa remains available for the next serving.
+        </p>
+
+        <p>
+            After $n$ servings, the total volume dispensed is
+        </p>
+
+        $$
+        V_0\left(1-\frac{1}{2^n}\right).
+        $$
+
+        <p>
+            As $n$ increases without bound, this quantity approaches $V_0$.
+            However, the remaining volume reaches zero only in the limit and
+            not after any finite serving.
+        </p>
+
+        $$
+        \lim_{n\to\infty}V_n
+        =
+        \lim_{n\to\infty}\frac{V_0}{2^n}
+        =
+        0.
+        $$
+
+        <p>
+            Since a human is presumably capable of requesting only finitely
+            many servings at any finite moment in time, the glass never
+            becomes empty during the drinking process. Therefore,
+            <strong>
+                the proposed mechanism produces a bottomless mimosa.
+            </strong>
+        </p>
+
+        <span class="proof-ending">□</span>
+        <br>
+    </div>
+
+
+    <h2>Space-Filling Curves</h2>
+
+    <p>
+        This section remains to be written.
+    </p>
+
+
+    <h2>Appendix A: Omitted Proofs</h2>
+
+    <h3>Proof of Claim 1</h3>
+
+    <div class="proof">
+        <span class="proof-title">Proof.</span>
+
+        <p>
+            Assume, for the purpose of contradiction, that $\mathfrak{F}$ is
+            contained in a ball $B_R$ of radius $R$, where $R$ is finite.
+        </p>
+
+        <p>
+            By monotonicity of volume,
+        </p>
+
+        $$
+        \mathfrak{F}\subseteq B_R
+        \implies
+        \operatorname{Vol}(\mathfrak{F})
+        \leq
+        \operatorname{Vol}(B_R).
+        \tag{1}
+        $$
+
+        <p>
+            By elementary geometry,
+        </p>
+
+        $$
+        \operatorname{Vol}(B_R)
+        =
+        \frac{4}{3}\pi R^3.
+        $$
+
+        <p>
+            Since $R$ is finite, $\frac{4}{3}\pi R^3$ is also finite.
+            Therefore, Equation (1) gives
+        </p>
+
+        $$
+        \operatorname{Vol}(\mathfrak{F})
+        \leq
+        \operatorname{Vol}(B_R)
+        =
+        \frac{4}{3}\pi R^3
+        <
+        \infty.
+        $$
+
+        <p>
+            This contradicts the assumption that
+            $\operatorname{Vol}(\mathfrak{F})=\infty$. Therefore, there is no
+            finite-radius ball containing $\mathfrak{F}$.
+        </p>
+
+        <span class="proof-ending">□</span>
+        <br>
+    </div>
+
+
+    <h2>Footnotes</h2>
+
+    <ol>
+        <li id="footnote-1">
+            Interestingly, this is being written in Champaign, Illinois.
+        </li>
+
+        <li id="footnote-2">
+            For a working definition of a room, see the future page on rooms.
+        </li>
+    </ol>
+
+    <a class="back-link" href="../index.html">
+        ← Back to Thought Archive
+    </a>
+
+</main>
+
+</body>
+
+</html>
